@@ -1,0 +1,55 @@
+BASIC COMMANDS
+cd -change directory
+to come out of the directory cd ..
+ls -list
+hidden files 
+ls -a
+mkdir- to make a subdirectory or a new directiory 
+mkdir name
+
+configure git
+git config --global user.name "My name"
+gti config --global user.email "someone@email.com"
+git config --list
+
+TWO TYPES OF CONFIG 
+global-for all the emails
+local-for that single email
+
+clone command -cloning a repository on our local machine 
+
+github file to our system (clone)
+command git clone <link>
+
+status command
+
+now to make changes in git 
+first add and then commit 
+
+ADD AND COMMIT 
+ADD-adds new or changed files in your working directory to the git staging area
+
+git add <filename>
+
+git add . (Add all the files to the git site)
+
+COMMIT-it is the record of change
+git commit -m<some message in quotes>
+
+after adding and commiting to upload the local system repository content to the remote repo or the git site we use PUSH
+
+PUSH COMMAND
+git push origin main
+
+github repo - origin 
+main is the branch
+
+INIT COMMAND - USE TO CREATE NEW repository
+
+
+
+
+
+
+
+
