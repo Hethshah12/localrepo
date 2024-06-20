@@ -45,7 +45,19 @@ github repo - origin
 main is the branch
 
 INIT COMMAND - USE TO CREATE NEW repository
+git init 
+git remote add origin <link>  
 
+
+git remote -v  -to verify remote
+
+
+git branch  -check branch 
+
+git branch -M main  -rename branch
+git push origin main
+
+git push -u origin main (-u for upstream it is for a long project where you need not type to origin again and again only git push will work)
 
 
 
